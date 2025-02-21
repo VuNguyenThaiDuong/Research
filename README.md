@@ -103,4 +103,28 @@ preprocessor = DataPreprocessor(raw_data_directory, output_directory, scaler_nam
 preprocessor.preprocess_multiple_files(file_paths, target_labels, columns_to_drop)
 
 ```
-
+Kết quả run file
+```
+=================================================Information File=======================================================
+Processing file: N_BaIoT_dataloader.csv
+Target Details:
+count         94970
+unique           11
+top       mirai.udp
+freq           8984
+Name: Default_label, dtype: object
+Scaling names : StandardScaler
+Train data saved to: /home/jupyter-le02/Data/Train_N_BaIoT_dataloader.csv
+Test data saved to: /home/jupyter-le02/Data/Test_N_BaIoT_dataloader.csv
+=================================================Information File=======================================================
+Processing file: data_CICIoT2023.csv
+Target Details:
+count               99514
+unique                 34
+top       DDoS-ICMP_Flood
+freq                 3000
+Name: Default_label, dtype: object
+Scaling names : StandardScaler
+Train data saved to: /home/jupyter-le02/Data/Train_data_CICIoT2023.csv
+Test data saved to: /home/jupyter-le02/Data/Test_data_CICIoT2023.csv
+```
