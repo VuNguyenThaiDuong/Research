@@ -36,8 +36,9 @@ To run this project, you need to install the following Python packages:
 
 You can install these dependencies using `pip`:
 
-```bash
+```
 pip install pandas numpy scikit-learn matplotlib
+```
 
 ## Licenses
 ---
